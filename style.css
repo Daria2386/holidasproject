@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.mainPic{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-image: url(Balanced_Diet_Hero_Image.jpg);
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    text-decoration: line-through;
+    color: white;
+}
+.euro{
+    color: red;
+}
+.mainlinks{
+    margin-top: 30px;
+    border-radius: 5px solid red;
+   
+}
+/* page2 */
+.parent-container{
+    background-image: url(/Balanced_Diet_Hero_Image.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+
+
+}
+.main1{
+    position: absolute;
+   
+    height: 100%;
+    width: 70%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgb(247, 247, 184);
+    padding-left: 5px;
+    padding-right: 5px ;
+    color: rgb(75, 62, 62);
+}
+p a {
+    color: rgb(75, 62, 62);
+}
+/* page3 */
+.parent2-container{
+    background-image: url(/Balanced_Diet_Hero_Image.jpg);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+
+
+}
+.main3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.4);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgb(247, 247, 184);
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(75, 62, 62);
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1, h2, p, a {
+        font-size: 40px;
+        
+    }
+    button{
+        font-size: 30px;
+        color: black;
+        background-color: rgb(172, 170, 170);
+    
+    }
+    /* page2 */
+    .main1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 50%;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+/* page3 */
+.main3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 50%;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;  
+    color: rgb(75, 62, 62); 
+    background-color: rgb(247, 247, 184);
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 100%;
+        width: 50%;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 10px;    
+    }
+    /* page3 */
+    .main3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 100%;
+        width: 50%;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 10px;    
+    }
+}
